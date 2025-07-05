@@ -117,7 +117,7 @@ uv run main.py
 ### Method 3: Using Flask command
 
 ```bash
-export FLASK_APP=run.py  # On Windows: set FLASK_APP=run.py
+export FLASK_APP=main.py  # On Windows: set FLASK_APP=main.py
 flask run --host=0.0.0.0 --port=5000
 ```
 
