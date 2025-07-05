@@ -99,6 +99,17 @@ For MongoDB Atlas, update the URI:
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/
 ```
 
+### 5. VS Code Setup
+
+If you're using VS Code, make sure to select the correct Python environment:
+
+1. Open the project in VS Code
+2. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) to open the Command Palette
+3. Type "Python: Select Interpreter"
+4. Choose the `.venv` environment that was created in the project folder
+   - Look for something like: `./venv/bin/python` (macOS/Linux) or `.\venv\Scripts\python.exe` (Windows)
+
+This ensures VS Code uses the correct Python environment with all your project dependencies.
 
 ## 🚀 Running the Application
 
